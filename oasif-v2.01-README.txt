@@ -1,0 +1,13 @@
+
+OASIF v2.01
+
+
+Date : 17 juillet 2006
+
+------------------------------------
+Modifications effectuées :
+------------------------------------
+
+* Ajout d'un système de gestion de version, lors de la 1ère ouverture de OASIF, le logiciel demandera le chemin du dossier contenant oasif.jar.
+
+* Ajout de la dernière version de l'aide et du didacticiel.

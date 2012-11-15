@@ -1,0 +1,17 @@
+
+OASIF v2.03
+
+
+Date : 12 décembre 2006
+
+
+------------------------------------
+Modifications effectuées :
+------------------------------------
+
+* A été ajouté la possibilité d'exporter une formation ou un module OASIF au format SCORM v1.2 :
+
+Lors d'une exportation :
+Un module OASIF --> correspond à un package SCORM.
+Donc dans le cas ou l'on exporte une formation au format SCORM, on aura autant de package SCORM qu'il y a de module dans la formation.
+

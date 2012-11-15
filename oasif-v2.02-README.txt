@@ -1,0 +1,12 @@
+
+OASIF v2.02
+
+
+Date : 31 août 2006
+
+
+------------------------------------
+Modifications effectuées :
+------------------------------------
+
+* Correction du bug concernant les textes longs dans la Partie "Propriétés" (ex:Descriptif,Objectif...) qui n'étaient pas enregistrés.

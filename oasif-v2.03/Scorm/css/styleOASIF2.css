@@ -1,0 +1,273 @@
+/* CSS Document */
+
+html {
+width : 100%; 
+height : 100%; 
+margin : 0; 
+} 
+body {
+width : 100%; 
+height : 100%; 
+margin : 0; 
+background-color : #ffffff; 
+font-family : arial, verdana, sans-serif; 
+} 
+
+/*Tableau*/
+table {
+font-size : 12px; 
+border-style:solid; 
+border-width:1px; 
+border-color:#E79D44;
+}
+
+.tabdegrade{
+    background-color : #ffcc99;
+}
+
+
+thead th{
+  background-color: #E79D44;
+  color : white; 
+  text-align: left;
+}
+tbody th{
+  font-size: 1em;
+  text-align: left;/**/
+  vertical-align: top;
+}
+
+tbody td{
+  color : #3B499F; 
+
+}
+
+h1 {
+font-size : 24px; 
+color : #3B499F; 
+font-weight : bold; 
+font-style : italic;
+vertical-align : middle;
+text-align:left;
+} 
+h2 {
+font-size : 16px; 
+font-weight : bold; 
+color : #E79D44; 
+vertical-align : middle;
+text-align:left;
+} 
+h3 {
+font-size : 12px; 
+font-weight : bold; 
+color : #E79D44; 
+vertical-align : middle;
+text-align:left;
+} 
+p ,li , ul , ol {
+font-size : 12px;
+color : #3B499F; 
+vertical-align : middle;
+text-align:left;
+} 
+
+img {
+vertical-align:middle;
+}
+a img {
+border: none;
+}
+
+.element_interface {
+font-weight : bold; 
+font-style : italic;
+}
+
+.element_important {
+font-weight : bold; 
+color : #E79D44; 
+}
+
+
+/*Global*/
+#conteneur { /*le conteneur global du site, qui sera centré */
+width: 780px;
+position: absolute;
+margin: 0px 0px 0px 20px;
+padding:0;
+}
+
+
+
+
+
+/*En-tete */
+#entete_titre{
+height : 60px;
+width : 100%; 
+margin: 0;
+padding :0; 
+background : #ffffff url(../img/oasif-web.png) no-repeat 0% 0% ;
+vertical-align : top;
+}
+
+#entete_logo {
+height : 60px;
+margin-left: 360px;
+/*background : #ffffff url(../img/quatuorlogos.gif) no-repeat 100% 0% ;*/
+vertical-align : top;
+text-align:right;
+}
+
+#contenu{
+width : 100%; 
+min-width : 500px; 
+margin :10px;
+padding :0; 
+}
+
+#centre {
+margin-left: 220px;
+margin-right: 130px;
+padding-left: 5px;
+padding-right: 5px;
+text-align: center;
+}
+#gauche {
+float:left;
+width: 220px;
+}
+#droite {
+float:right;
+width: 130px;
+}
+
+#pieddepage {
+height: 20px;
+font-size : 9px;
+color : #3B499F; 
+vertical-align : middle;
+text-align:center;
+}
+
+/*Zone de notes*/
+.image_notes {
+margin: 0;
+padding :0; 
+height : 32px;
+width : 100%;
+background : #E7E9F3 url(img/note_entete.jpg) no-repeat 0% 0% ;
+}
+.entete_notes {
+margin-left: 44px;
+height : 32px;
+background : #E7E9F3 url(img/note_pix.jpg) repeat 0% 0% ;
+font-size : 14px; 
+color : #ffffff; 
+font-weight : bold; 
+vertical-align : middle;
+text-align:right;
+}
+.corps_notes {
+background-color : #E7E9F3; 
+margin: 0;
+padding :0; 
+}
+.texte_notes {
+background-color : #E7E9F3; 
+margin: 0;
+padding : 5px 5px 5px 20px; 
+font-size : 12px;
+color : #3B499F; 
+vertical-align : middle;
+text-align:left;
+}
+
+/*Zone de travail à réaliser*/
+.image_travail {
+margin: 0;
+padding :0; 
+height : 32px;
+width : 100%;
+background : #FCF3E8 url(img/exo_entete.jpg) no-repeat 0% 0% ;
+}
+.entete_travail {
+margin-left: 44px;
+height : 32px;
+background : #FCF3E8 url(img/exo_pix.jpg) repeat 0% 0% ;
+font-size : 14px; 
+color : #ffffff; 
+font-weight : bold; 
+vertical-align : middle;
+text-align:right;
+}
+.corps_travail {
+background-color : #FCF3E8; 
+margin: 0;
+padding :0; 
+}
+.texte_travail {
+background-color : #FCF3E8; 
+margin: 0;
+padding : 5px 5px 5px 20px; 
+font-size : 12px;
+color : #3B499F; 
+vertical-align : middle;
+text-align:left;
+}
+
+/*Zone d'informations (teaser) */
+.image_infos {
+margin: 0;
+padding :0; 
+height : 32px;
+width : 100%;
+background : transparent url(img/info_entete.jpg) no-repeat 0% 0% ;
+}
+.entete_infos {
+margin-left: 44px;
+height : 32px;
+background : transparent url(img/info_pix.jpg) repeat 0% 0% ;
+font-size : 14px; 
+color : #ffffff; 
+font-weight : bold; 
+vertical-align : middle;
+text-align:right;
+}
+.corps_infos {
+background-color : #ffffff; 
+border : 2px solid #E79D44;
+margin: 0;
+padding :0; 
+}
+.texte_infos {
+background-color : #ffffff; 
+margin: 0;
+padding : 5px;  
+font-size : 12px;
+color : #3B499F; 
+vertical-align : middle;
+text-align:left;
+}
+
+
+/*Styles du menu (chemin des étapes) */
+.menu_cadre {
+border-top : 1px solid #3B499F;
+border-bottom : 1px solid #3B499F;
+margin : 0;
+}
+
+.menu, .menu_selected {
+padding:4px 5px 4px 5px; 
+text-align : left;
+vertical-align : middle; 
+font-size : 14px;
+font-weight : bold; 
+cursor:pointer; 
+cursor:hand;
+background-color : #ffffff;
+}
+.menu{color : #3B499F;  }
+.menu_selected{color : #E79D44;  }
+

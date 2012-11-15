@@ -1,0 +1,38 @@
+
+OASIF v2.00 (alias v2)
+
+
+Date : 21 juin 2006
+
+------------------------------------
+Modifications effectuées :
+------------------------------------
+
+
+
+* Le manuel et le didacticiel ont été intégrés à l'application.
+
+* Une optimisation du processus d'ouverture de formation et de basculement : de planning en planning  à été réalisé.
+
+* Un bug engendrant un décalage graphique de tous les composants du planning courant, par 
+utilisation rapide des boutons zoom :plus et moins, a été décelé. Il a été corrigé en limitant à une 
+seconde d'intervalle l'execution entre deux zoom.
+
+* En d'autre terme on ne peux pas double-cliquer ou triple-cliquer sur le plus ou le moins du zoom.
+
+
+* Les bugs retournés dans le mail du 16 juin par Sigolène ont été corrigés :
+
+dans le planning jour :
+- le temps d'accompagnement est faux : temps moyen total et temps / accompagnateur ne correspondent pas aux activités programmés ce jour là. 
+Notamment, si une activité est étalé sur une journée, il faut prendre en compte l'intégralité du temps d'accompagnement et de travail apprenant (puisque l'étalement est égal à un) pour les temps moyen et total.
+
+dans le planning module
+- problème d'affichage lorsqu'on change le niveau de zoom sur le planning, des activités se chevauchent (alors que ce n'était pas le cas auparavant) au lieu de se suivre.
+
+Par ailleurs, nous avons deux demandes (à voir si c'est possible) : 
+    - Le niveau de zoom par défaut dans le planning jour est trop grand, pourrait-on visualiser environ 1/2 journée par défaut à l'ouverture (environ 5heures)
+    - Dans le planning jour, colonne de droite, serait-il possible de mettre un texte dans la zone des info liées à 1 activité spécifique 
+du type "Informations sur l'activité sélectionnée" (au dessus du texte "temps de travail estimé de l'apprenant")
+
+

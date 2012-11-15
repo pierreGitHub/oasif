@@ -1,0 +1,243 @@
+/* CSS Document */
+
+html {
+width : 100%; 
+height : 100%; 
+margin : 0; 
+} 
+body {
+width : 100%; 
+height : 100%; 
+margin : 0; 
+background-color : #ffffff; 
+font-family : arial, verdana, sans-serif; 
+} 
+
+
+h1 {
+font-size : 24px; 
+color : #3B499F; 
+font-weight : bold; 
+font-style : italic;
+vertical-align : middle;
+text-align:left;
+} 
+h2 {
+font-size : 16px; 
+font-weight : bold; 
+color : #E79D44; 
+vertical-align : middle;
+text-align:left;
+} 
+h3 {
+font-size : 12px; 
+font-weight : bold; 
+color : #E79D44; 
+vertical-align : middle;
+text-align:left;
+} 
+p ,li , ul , ol {
+font-size : 12px;
+color : #3B499F; 
+vertical-align : middle;
+text-align:left;
+} 
+
+img {
+vertical-align:middle;
+}
+a img {
+border: none;
+}
+td {
+vertical-align:top;
+}
+.element_interface {
+font-weight : bold; 
+font-style : italic;
+}
+
+.element_important {
+font-weight : bold; 
+color : #E79D44; 
+}
+
+.element_description {
+text-align: center;
+font-style : italic;
+}
+
+.element_note {
+font-weight : bold; 
+}
+
+/*Global*/
+#conteneur {
+	width: 840px;
+	position: absolute;
+	left: 50%;
+	margin: 0px 0px 0px -440px;
+	padding:0;
+}
+
+
+/*En-tete */
+#entete_titre{
+height : 60px;
+width : 100%; 
+margin: 0;
+padding :0; 
+background : #ffffff url(img/oasif-web.png) no-repeat 0% 0% ;
+vertical-align : top;
+}
+
+#entete_logo {
+height : 60px;
+margin-left: 360px;
+background : #ffffff url(img/quatuorlogos.gif) no-repeat 100% 0% ;
+vertical-align : top;
+text-align:right;
+}
+
+#contenu{
+width : 100%; 
+min-width : 500px; 
+margin :10px;
+padding :0; 
+}
+
+#centre {
+margin-left: 230px;
+padding-left: 10px;
+padding-right: 5px;
+}
+
+#titre {
+margin-left: 230px;
+border-top : 1px solid #3B499F;
+border-bottom : 1px solid #3B499F;
+font-size : 14px; 
+font-weight : bold; 
+color : #E79D44; 
+vertical-align : middle;
+text-align:right;
+line-height: 22px;
+}
+
+#pieddepage {
+height: 20px;
+font-size : 9px;
+color : #3B499F; 
+vertical-align : middle;
+text-align:center;
+}
+
+#menu {
+float:left;
+width: 230px;
+padding-top: 50px;
+background-color : #ffffff; 
+border : 1px solid #3B499F ;
+background : transparent url(img/menu_entete.jpg) no-repeat 0% 0% ;
+}
+
+
+/**********************************************************
+** Elements du menu de droite (Titre + 1 niveau)			
+***********************************************************/
+
+/* Element de titre */
+.menu_titre  {
+margin-left : 0px; 
+padding : 5px;
+line-height:14px;
+} 
+.menu_titre a, .menu_titre a:link, .menu_titre a:active, .menu_titre a:visited  {
+font-size : 14px; 
+font-weight : bold; 
+text-decoration : none; 
+color : #3B499F; 
+} 
+.menu_titre a:hover {
+font-size : 14px; 
+font-weight : bold; 
+text-decoration : underline; 
+color : #E79D44; 
+} 
+
+/* Element de titre  sélectionné  */
+.menu_titre_selected {
+margin-left : 0px; 
+padding : 5px;
+line-height:14px;
+font-size : 14px; 
+font-weight : bold; 
+text-decoration : none; 
+color : #E79D44; 
+} 
+
+
+/* Element de niveau 1  */
+.menu_element {
+margin-left : 20px; 
+padding : 5px 5px 5px 10px;
+line-height:14px;
+background : transparent url(img/puce.gif) no-repeat 0% 50%; 
+}
+.menu_element a, .menu_element a:link, .menu_element a:active, .menu_element a:visited  {
+font-size : 12px; 
+font-weight : normal; 
+text-decoration : none; 
+color : #3B499F; 
+} 
+.menu_element a:hover {
+font-size : 12px; 
+font-weight : normal; 
+text-decoration : underline; 
+color : #E79D44; 
+} 
+
+/* Element de niveau 1 sélectionné  */
+.menu_element_selected  {
+margin-left : 20px; 
+padding : 5px 5px 5px 10px;
+line-height:14px;
+background : transparent url(img/puce2.gif) no-repeat 0% 50%;
+font-size : 12px; 
+font-weight : normal; 
+text-decoration : none; 
+color : #E79D44; 
+} 
+
+/*Zone de notes*/
+.image_notes {
+margin: 0;
+padding :0; 
+height : 32px;
+width : 100%;
+background : #E7E9F3 url(img/note_entete.jpg) no-repeat 0% 0% ;
+}
+.entete_notes {
+margin-left: 44px;
+height : 32px;
+background : #E7E9F3 url(img/note_pix.jpg) repeat 0% 0% ;
+font-size : 14px; 
+color : #ffffff; 
+font-weight : bold; 
+vertical-align : middle;
+text-align:right;
+}
+.corps_notes {
+background-color : #E7E9F3; 
+margin: 0;
+padding :0; 
+}
+.texte_notes {
+background-color : #E7E9F3; 
+margin: 0;
+padding : 5px 5px 5px 20px; 
+font-size : 12px;
+color : #3B499F; 
+vertical-align : middle;
+text-align:left;
+}
